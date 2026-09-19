@@ -1,0 +1,1 @@
+class sala(Coodenacao)
