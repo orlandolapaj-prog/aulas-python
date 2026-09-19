@@ -1,7 +1,7 @@
 from xml.sax.handler import property_encoding
 
 
-class Coordenacao:#
+class Cordenacao:#
     def __init__(self, professore, cursos , alunos)
         self.__init__professor = professore
         self.__cursos = cursos
