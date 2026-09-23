@@ -1,4 +1,4 @@
 # Questao 1
 
-print("Seja-vindo")
+print("Seja bem vindo")
 nome= input("Digite seu nome: ")

@@ -1,31 +1,33 @@
-# classe PAI
+class Animal:
+    def __init__(self, especie, nome):
+        self.__especie = especie
+        self.nome = nome
 
-class Animal:()
+    def comer(self):
+        print(f"O {self.nome} se alimentou")
 
-def _init__(self,tipo,idade,regiao):
+    def descansar(self):
+        print(f"O {self.nome} dormiu")
 
-    self.tipo = tipo= tipo # protected
-    self.idade = idade = idade # protected
-    self.regiao = regiao = regiao # protected
+    def descricao(self):
+        print(f"O {self.nome} é da especie {self.__especie}.")
 
-    @property
-    def tipo(self):
-        return self._tipo
-    @tipo.setter
-    def tipo(self,tipo):
-        self._tipo = tipo
-    @property
-    def idade (self):
-        return self._idade
-    @idade.setter
-    def idade(self,idade):
-        self._idade = idade
-    @property
-    def regiao (self):
-        return self._regiao
+class Cachorro(Animal):
+    def __init__(self, especie, nome, raca):
+        super().__init__(especie, nome)
+        self.raca = raca
 
-    def comer(self):# publicos
-        print(f'o aniamal{self,_tipo} está comodo.")'
+class Gato(Animal):
+    def __init__(self, nome, raca):
+        super().__init__("Gato", nome)
+        self.raca = raca
 
-    def dormir(self):# publicos
-        print(f'o animal {selt,_tipo})
+class Main:
+    gato = Gato("Max", "Siamês")
+    cachorro = Cachorro("Cachorro", "Brutus", "Buldog")
+
+    cachorro.descricao()
+    cachorro.comer()
+
+    gato.descricao()
+    gato.comer()
