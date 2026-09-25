@@ -1,4 +1,3 @@
 # Questao 1
-
-print("Seja bem vindo")
-nome= input("Digite seu nome: ")
+nome = input("Digite seu nome: ")
+print("Bem-vindo(a),", nome)
