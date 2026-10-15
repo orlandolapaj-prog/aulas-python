@@ -8,12 +8,12 @@ Verde = "Siga!"
 Amarelo = "Atenção"
 
 
-Vermelho="Pare"
+Vermelho ="Pare"
 
 sinal = input("Digite a cor do sinal:")
 
 
-if sinal <= "Verde":
+if sinal == "Verde":
     print("siga!")
 elif sinal == "Amarelo":
     print("Atenção!")
