@@ -3,16 +3,13 @@
 
 fome = input("Você está como fome: ")
 
-Lancher = int(input("Você quer (pizza"
-"hamburguer): "))
+Lancher = int(input("Você quer (pizza""hamburguer): "))
 
 
-if fome  == "sim": "pizza" ou "hamburguer"  = input(" fome ")
+if  fome == "sim" "pizza" or "hamburguer"
+    print("você quer pizza ou hamburguer ")\
+if fome == "sim"  "pizza" or "hamburguer"
+    print("você pode fazer o pedido")
+else:
+    print("Vá descansar")
 
-if fome == "sim":"pizza ou hamburguer"
-
-        print("Esta liberado , pode pegara o seu pedido")
-    else:
-        print("Vai descansa.")
-    else:
-        print("Vamos ter que ir de ônibus.")
