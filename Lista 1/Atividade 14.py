@@ -11,5 +11,5 @@ if  fome == "sim" "pizza" or "hamburguer"
 if fome == "sim"  "pizza" or "hamburguer"
     print("você pode fazer o pedido")
 else:
-    print("Vá descansar")
+    print(" pode  descançar ")
 

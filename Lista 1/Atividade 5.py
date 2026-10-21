@@ -7,7 +7,6 @@ Verde = "Siga!"
 
 Amarelo = "Atenção"
 
-
 Vermelho ="Pare"
 
 sinal = input("Digite a cor do sinal:")

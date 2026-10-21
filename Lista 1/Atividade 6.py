@@ -1,10 +1,9 @@
 
 #Atividade 6
 
-
 Ponto = 80
 
-Ponto = input("Digite a sua pontuação:")
+Ponto = int(input("Digite a sua pontuação:"))
 
 Chave = input("você tem a chave:")
 
