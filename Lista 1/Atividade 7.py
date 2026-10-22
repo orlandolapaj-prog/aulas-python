@@ -1,11 +1,12 @@
 
 #Atividade 7
 
+Cupom= 50
 
 
-Estudante = input("Você e estudante: ")
+estudante = input("Você tem cupom:")
 
-if Estudante  == "sim" or Estudante != "não":
-    print("ganhou desconto")
+if Cupom == "sim" or estudante!= "não":
+    print("Você ganho desconto 50% ")
 else:
-    print("não ganha desconto 50 %.")
+    print("não ganho desconto .")
