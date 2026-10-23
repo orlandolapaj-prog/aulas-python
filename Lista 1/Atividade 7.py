@@ -6,7 +6,7 @@ Cupom= 50
 
 estudante = input("Você tem cupom:")
 
-if Cupom == "sim" or estudante!= "não":
+if Cupom == "sim" or estudante != "não":
     print("Você ganho desconto 50% ")
 else:
-    print("não ganho desconto .")
+    print("Não tem desconto .")
