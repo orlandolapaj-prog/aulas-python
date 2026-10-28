@@ -1,15 +1,12 @@
-#Atividade 1
-
-Filme_favorito= "Indiana Jons"
-
-Indiana_Jons= 1
+# Atividade 8
 
 
-while Filme_favorito :
+while True:
 
-      Filme_favorito = input("Escreva o nome do filme: ")
-      print("Você escolheu o filme :", "Indiana_Jons")
+      Usuario= int(input("digite o numero ( multiplicado por 2 ):"))
 
-      Filme_favorito = Filme_favorito + 1
+      if Usuario == "sair":
 
-
+      print("Você cancelou a operação.")
+       Numero   = Usuario * 2
+        print("operação não sucedidAa", )

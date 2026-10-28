@@ -1,13 +1,10 @@
 #Atividade 1
 
-Filme_favorito= "Indiana Jons"
+contador = 1
 
-Indiana_Jons= 1
+while contador <=5 :
 
+      Filme_favorito = input("Escreva o nome do filme:")
+      print("Você escolheu o filme :",Filme_favorito)
 
-while Filme_favorito <=3 :
-
-      Filme_favorito = input("Escreva o nome do filme: ")
-      print("Você escolheu o filme :", "Indiana_Jons")
-
-      Filme_favorito = Filme_favorito + 1
+      contador  = contador + 1

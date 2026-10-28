@@ -8,8 +8,8 @@ vezes = 1
 
 while numero <= 1:
 
-usuario = numero+vezes
-print( numero,"+",vezes,"=",usuario)
-    vezes= vezes+1
 
-    print("")
+     usuario = numero+vezes
+     print( numero,"+",vezes,"=",usuario)
+     vezes= vezes+1
+
