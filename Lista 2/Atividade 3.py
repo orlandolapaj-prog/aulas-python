@@ -1,7 +1,5 @@
 # Atividade 3
 
-Numero_inical= 20
-
 Numero_inicial= int(input("Escreva o numro inicial?:"))
 
 
