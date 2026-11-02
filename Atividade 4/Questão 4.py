@@ -8,7 +8,7 @@ Cheque_espacial= 3000
 
 saldo= float(input("Digite quanto que sacar:"))
 
-if saldo !=saldo:
+if saldo >=saldo:
     print("Saque realizado com sucesso")
 else:
     print("Saldo insuficiente para realizar esta operação")

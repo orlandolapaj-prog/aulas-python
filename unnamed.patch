@@ -1,0 +1,17 @@
+Index: Lista 2/Atividade 8.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Lista 2/Atividade 8.py b/Lista 2/Atividade 8.py
+--- a/Lista 2/Atividade 8.py
++++ b/Lista 2/Atividade 8.py	(date 1792801286838)
+@@ -5,7 +5,7 @@
+ Indiana_Jons= 1
+ 
+ 
+-while Filme_favorito <= 3:
++while Filme_favorito :
+ 
+       Filme_favorito = input("Escreva o nome do filme: ")
+       print("Você escolheu o filme :", "Indiana_Jons")
